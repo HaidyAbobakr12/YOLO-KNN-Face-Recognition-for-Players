@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 
 
-knn = joblib.load("face_recognition_knn.pkl")
+knn = joblib.load("knn_model.pkl")
 encoder = joblib.load("label_encoder.pkl")
 detector = YOLO("best.pt")
 
